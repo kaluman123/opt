@@ -1,0 +1,17 @@
+{
+  "namespace": "com.udacity",
+  "type": "record",
+  "name": "weather.value",
+  "fields": [
+    {
+      "name": "temperature",
+      "type": ["null","string"],
+      "default":null
+    },
+    {
+      "name": "status",
+      "type": ["null","string"],
+      "default":null
+    }
+  ]
+}
